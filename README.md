@@ -149,12 +149,7 @@ UserPortal/
 ```
 
 
-```
-
-  
-└── README.md
----
-
+``
 ### 🔧 Setup Instructions
 
 #### 1️⃣ Clone the Repo
