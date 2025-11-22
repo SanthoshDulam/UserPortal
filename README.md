@@ -41,8 +41,6 @@
 
 # 🖼 Screenshots
 
-> Make sure your screenshot names match these.
-
 ### 🔹 Login Page
 ![Login](screenshots/UserPortal_login.png)
 
@@ -140,12 +138,10 @@ UserPortal/
 ├── Program.cs
 ├── UserPortal.csproj
 └── README.md
-
-
 ---
-``
+
 ### 🔧 Setup Instructions
-``
+
 #### 1️⃣ Clone the Repo
 ```bash
 git clone https://github.com/SanthoshDulam/UserPortal.git
