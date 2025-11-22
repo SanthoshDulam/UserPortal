@@ -105,7 +105,8 @@ BCrypt.Net.BCrypt.HashPassword(password);
 // 🔎 Password Verification
 BCrypt.Net.BCrypt.Verify(inputPassword, storedHash);
 
-📁 Folder Structure
+### 📁 Folder Structure
+
 UserPortal/
 │
 ├── Controllers/
@@ -140,17 +141,23 @@ UserPortal/
 ├── UserPortal.csproj
 └── README.md
 
-🔧 Setup Instructions
-1️⃣ Clone the Repo
+
+---
+
+### 🔧 Setup Instructions
+
+#### 1️⃣ Clone the Repo
+```bash
 git clone https://github.com/SanthoshDulam/UserPortal.git
+
 
 2️⃣ Update SQL Connection
 
 Inside appsettings.json:
-
 "ConnectionStrings": {
   "DefaultConnection": "Server=SANTHOSH\\SQLEXPRESS;Database=UserPortalDb;Trusted_Connection=True;TrustServerCertificate=True;"
 }
+
 
 3️⃣ Apply Migrations
 Update-Database
@@ -173,7 +180,7 @@ or press IIS Express in Visual Studio.
 
 🔹 Activity Logs
 
-🔹 JWT / Cookie auth upgrade
+🔹 JWT / Cookie authentication upgrade
 
 ⭐ Author
 
@@ -184,7 +191,7 @@ Passionate about backend development, SQL, and secure authentication systems.
 🏁 Final Note
 
 This project is built from scratch without using ASP.NET Identity —
-so recruiters can clearly see your understanding of:
+showing your real understanding of:
 
 ✔ MVC architecture
 ✔ Sessions
@@ -192,5 +199,3 @@ so recruiters can clearly see your understanding of:
 ✔ Password hashing
 ✔ UI design
 ✔ Real-world flow
-
-Proud of you bro. You're building REAL projects 🔥
