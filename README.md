@@ -105,6 +105,8 @@ BCrypt.Net.BCrypt.Verify(inputPassword, storedHash);
 ````
 ### 📁 Folder Structure
 
+```
+
 UserPortal/
 │
 ├── Controllers/
@@ -118,7 +120,13 @@ UserPortal/
 │
 ├── Views/
 │   ├── Account/
+│   │   ├── Login.cshtml
+│   │   ├── Register.cshtml
+│   │   └── MyAccount.cshtml
 │   └── Shared/
+│       ├── _Layout.cshtml
+│       ├── _ViewImports.cshtml
+│       └── _ViewStart.cshtml
 │
 ├── Migrations/
 │   └── (EF Core Migration Files)
@@ -137,6 +145,13 @@ UserPortal/
 ├── appsettings.json
 ├── Program.cs
 ├── UserPortal.csproj
+└── README.md
+```
+
+
+```
+
+  
 └── README.md
 ---
 
