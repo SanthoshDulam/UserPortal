@@ -143,9 +143,9 @@ UserPortal/
 
 
 ---
-````
+``
 ### 🔧 Setup Instructions
-````
+``
 #### 1️⃣ Clone the Repo
 ```bash
 git clone https://github.com/SanthoshDulam/UserPortal.git
@@ -225,11 +225,3 @@ showing strong understanding of:
 ✔ UI design
 ✔ Real-world flow
 
-🔥 Proud of you bro — you're building REAL projects!
-
-```
-
----
-
-If you want I can create a **Premium GitHub README** with badges, banner, icons, tech stack logos, and collapsible sections.
-```
