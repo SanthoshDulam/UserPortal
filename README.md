@@ -101,7 +101,8 @@
 
 ```csharp
 BCrypt.Net.BCrypt.HashPassword(password);
-###🔎 Password Verification
+
+// 🔎 Password Verification
 BCrypt.Net.BCrypt.Verify(inputPassword, storedHash);
 
 📁 Folder Structure
@@ -138,6 +139,7 @@ UserPortal/
 ├── Program.cs
 ├── UserPortal.csproj
 └── README.md
+
 🔧 Setup Instructions
 1️⃣ Clone the Repo
 git clone https://github.com/SanthoshDulam/UserPortal.git
