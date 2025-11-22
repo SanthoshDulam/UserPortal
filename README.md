@@ -53,28 +53,36 @@
 ![Account](screenshots/UserPortal_myaccount.png)
 
 ---
+## 🧱 Architecture Overview
+                   +---------------------------+
+                   |        UserPortal         |
+                   +---------------------------+
+                               |
+    +----------------------------------------------------+
+    |                      UI Layer                      |
+    |        Views (Razor Pages: Login, Register)        |
+    +----------------------------------------------------+
+                               |
+    +----------------------------------------------------+
+    |                  Controllers Layer                 |
+    |               AccountController.cs                 |
+    +----------------------------------------------------+
+                               |
+    +----------------------------------------------------+
+    |              Business Logic / Models               |
+    |  User.cs | LoginViewModel.cs | RegisterViewModel   |
+    +----------------------------------------------------+
+                               |
+    +----------------------------------------------------+
+    |         Data Access Layer (Entity Framework)       |
+    |               AppDbContext.cs (ORM)                |
+    +----------------------------------------------------+
+                               |
+    +----------------------------------------------------+
+    |               SQL Server Database                  |
+    +----------------------------------------------------+
 
-# 🧱 Architecture Overview
 
-+----------------------------------------+
-| UserPortal |
-+-----------------------+----------------+
-| UI Layer | Views |
-| ASP.NET MVC Razor | Login, Register|
-+-----------------------+----------------+
-| Controllers |
-| AccountController.cs |
-+-------------------------------------------+
-| Business Logic Layer (Models) |
-| User.cs | LoginViewModel | RegisterVM |
-+-------------------------------------------+
-| Data Access Layer |
-| AppDbContext.cs (EF Core ORM) |
-+-------------------------------------------+
-| SQL Server Database |
-+-------------------------------------------+
-
----
 
 # 🗄 Database Structure
 
