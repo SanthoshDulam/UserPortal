@@ -7,7 +7,6 @@
 
 <p align="center">
   A clean, secure, and modern user authentication portal built using <b>ASP.NET Core MVC + Entity Framework Core + SQL Server</b>.  
-  Designed with freshers, interviews, and real-world project structure in mind.
 </p>
 
 ---
